@@ -102,6 +102,9 @@ def main() -> None:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} — Immanuel of Rome, Maḥberot</title>
 <link rel="stylesheet" href="style.css">
+<script>var osT=localStorage.getItem('os-theme');osT&&osT!='auto'&&document.documentElement.setAttribute('data-theme',osT)</script>
+<link rel="stylesheet" href="/assets/os.css">
+<script src="/assets/os.js" defer></script>
 </head>
 <body>
 <header>
