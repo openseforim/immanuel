@@ -61,4 +61,4 @@ The English draft is by Claude (Anthropic), directed and reviewed by Ezra Brand.
 
 ## Licence
 
-The English translation, the notes, the aligned text files and the build scripts: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (see `LICENSE`). The Hebrew text is Dov Yarden's edition as published by Project Ben-Yehuda, marked public domain there.
+The English translation, the notes, the aligned text files and the build scripts: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (see `LICENSE`), © 2026 Ezra Brand. The Hebrew text is Dov Yarden's edition as published by Project Ben-Yehuda, marked public domain there.
