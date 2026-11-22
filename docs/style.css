@@ -31,7 +31,7 @@ main { padding-top: 14px; padding-bottom: 40px; }
 .row p { margin: 0; }
 .ln { font: .68rem/2.3 system-ui, sans-serif; color: var(--muted); text-decoration: none;
   text-align: right; opacity: .55; }
-.he { font-family: "SBL Hebrew", "Ezra SIL", "Frank Ruehl CLM", "Times New Roman", serif;
+.he { font-family: "SBL Hebrew", "Ezra SIL", "Noto Serif Hebrew", "Frank Ruehl CLM", "Times New Roman", serif;
   font-size: 1.22rem; line-height: 1.6; text-align: right; }
 .verse .en { font-style: italic; }
 .verse .row { padding-left: 4px; }

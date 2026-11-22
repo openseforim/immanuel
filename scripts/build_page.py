@@ -101,6 +101,8 @@ def main() -> None:
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{html.escape(title)} — Immanuel of Rome, Maḥberot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <script>var osT=localStorage.getItem('os-theme');osT&&osT!='auto'&&document.documentElement.setAttribute('data-theme',osT)</script>
 <link rel="stylesheet" href="/assets/os.css">
@@ -137,3 +139,19 @@ Hebrew text: <a href="https://benyehuda.org/read/36886">Project Ben-Yehuda</a>, 
 
 if __name__ == "__main__":
     main()
+
+
+# --- Open Seforim post-build: canonical and social tags, descriptions, lang, CSS/JS version stamps.
+# The tool lives in the org site clone (openseforim-site/tools/postbuild.py); skipped if that clone is missing.
+def _os_postbuild():
+    import subprocess
+    from pathlib import Path as _P
+    claude = _P(__file__).resolve().parents[2]
+    tool = claude / "openseforim-site" / "tools" / "postbuild.py"
+    if tool.exists():
+        subprocess.run([sys.executable, str(tool), "immanuel", str(claude / "immanuel-mahberot/docs")], check=False)
+
+
+if __name__ == "__main__":
+    import sys
+    _os_postbuild()
