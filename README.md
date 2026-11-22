@@ -58,3 +58,7 @@ py -3.13 scripts/build_page.py 2 "The Second Maḥberet" "Tamar and Beriah: a co
 ## Credits
 
 The English draft is by Claude (Anthropic), directed and reviewed by Ezra Brand.
+
+## Licence
+
+The English translation, the notes, the aligned text files and the build scripts: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (see `LICENSE`). The Hebrew text is Dov Yarden's edition as published by Project Ben-Yehuda, marked public domain there.
