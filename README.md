@@ -1,6 +1,6 @@
 # Immanuel of Rome, *Maḥberot*: an English translation in progress
 
-Site: <https://ezrabrand.github.io/immanuel-mahberot/>
+Site: <https://openseforim.org/immanuel/>
 
 Immanuel ben Solomon of Rome (about 1261 to about 1335) wrote 28 *maḥberot* in Hebrew rhymed prose with poems set into it. No complete translation exists in any language. This repository holds a line-aligned Hebrew and English text and the scripts that build the side-by-side pages.
 
