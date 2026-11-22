@@ -126,7 +126,7 @@ Hebrew text: <a href="https://benyehuda.org/read/36886">Project Ben-Yehuda</a>, 
 <ul class="notes">
 {note_rows}
 </ul>
-<p><a href="index.html">Back to the project page</a></p>
+<p><a href="index.html">All maḥberot</a></p>
 </footer>
 </body>
 </html>
