@@ -53,5 +53,7 @@ th { font: 600 .78rem system-ui, sans-serif; color: var(--muted); text-transform
 @media (max-width: 720px) {
   .row { grid-template-columns: 1fr; padding: 6px 2px; border-bottom: 1px solid var(--rule); }
   .ln { display: none; }
-  .he { margin-top: 2px; }
+  /* on a phone the Hebrew comes first, then the English */
+  .row .he { order: -1; }
+  .row .en { margin-top: 2px; }
 }
