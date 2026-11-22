@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this edition, please cite it as below."
+title: "Immanuel of Rome, Maḥberot: reading edition with English translation"
+type: dataset
+authors:
+  - family-names: Brand
+    given-names: Ezra
+abstract: "The Hebrew rhymed-prose maḥberot, with an English translation line by line. Line-aligned Hebrew and English, one English line for each Hebrew line."
+license: CC-BY-SA-4.0
+url: "https://openseforim.org/immanuel/"
+repository-code: "https://github.com/openseforim/immanuel"
+keywords:
+  - "Judaica"
+  - "Hebrew"
+  - "digital humanities"
+  - "translation"
+  - "digital edition"
