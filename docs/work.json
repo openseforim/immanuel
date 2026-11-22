@@ -3,18 +3,18 @@
   "slug": "immanuel",
   "order": 20,
   "kind": "translation",
-  "title": "Immanuel of Rome, Maḥberot",
-  "short_title": "Maḥberot",
+  "title": "Immanuel of Rome, *Maḥberot*",
+  "short_title": "*Maḥberot*",
   "title_he": "מחברות עמנואל",
   "author": "Immanuel of Rome (about 1261 – about 1335)",
-  "status_label": "In progress: 2 of 28 maḥberot",
+  "status_label": "In progress · 2 of 28 maḥberot",
   "summary": "The Hebrew rhymed-prose maḥberot, with an English translation line by line.",
   "base_edition": {
     "label": "ed. Dov Yarden (Mosad Bialik, 1957), text from Project Ben-Yehuda",
     "scan_url": "https://benyehuda.org/read/36886"
   },
   "method": "Line-aligned Hebrew and English, one English line for each Hebrew line.",
-  "cite": "Immanuel of Rome, Maḥberot, Hebrew text with English translation, ed. Ezra Brand. Open Seforim",
+  "cite": "Immanuel of Rome, *Maḥberot*, Hebrew text with English translation, ed. Ezra Brand. Open Seforim",
   "url": "https://openseforim.org/immanuel/",
   "repo": "https://github.com/openseforim/immanuel",
   "licence": {

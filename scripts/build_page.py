@@ -114,7 +114,7 @@ def main() -> None:
 <h1>{html.escape(title)}</h1>
 <p class="sub">{html.escape(subtitle)} · <span lang="he" dir="rtl">{html.escape(he["title"])}</span></p>
 <p class="meta">{line_no} lines. One row is one rhyme unit of the Hebrew rhymed prose, or one line of verse.
-References in <span class="ref">[gray brackets]</span> are the translator's identifications and are not verified.
+References in <span class="ref">[gray brackets]</span> are the translator's identifications.
 <a class="warn" href="#notes">⚠</a> marks an uncertain rendering.
 Hebrew text: <a href="https://benyehuda.org/read/36886">Project Ben-Yehuda</a>, from the edition of Dov Yarden (1957).</p>
 </header>
