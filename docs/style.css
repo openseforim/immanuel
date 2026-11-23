@@ -70,3 +70,5 @@ details.about[open] summary { margin-bottom: .3em; }
 @media (max-width: 720px) {
   nav.crumb .pn a { margin-left: 0; margin-right: .8rem; }
 }
+/* the Hebrew title first, then the English, as in the Taḥkemoni reader */
+.title-he { font-family: "Noto Serif Hebrew", serif; font-size: 1.7rem; font-weight: 600; text-align: right; margin: .3em 0 0; line-height: 1.3; }

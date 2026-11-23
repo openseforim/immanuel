@@ -115,9 +115,9 @@ def main() -> None:
 <body>
 <header class="chapter">
 <nav class="crumb" aria-label="Maḥberot"><span><a href="index.html">All maḥberot</a> · Maḥberet {num}</span>{pn}</nav>
+<p class="title-he" lang="he" dir="rtl">{html.escape(he["title"])}</p>
 <h1>{html.escape(title)}</h1>
 <p class="sub">{html.escape(subtitle)}</p>
-<p class="sub-he" lang="he" dir="rtl">{html.escape(he["title"])}</p>
 <details class="about"><summary>About this text</summary>
 <p class="meta">{line_no} lines. One row is one rhyme unit of the Hebrew rhymed prose, or one line of verse.
 References in <span class="ref">[gray brackets]</span> are the translator's identifications.
