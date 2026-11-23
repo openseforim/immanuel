@@ -95,6 +95,10 @@ def main() -> None:
         for k, v in notes.items()
     )
 
+    done = lambda k: k == num or (ROOT / "docs" / f"mahberet-{k:02d}.html").exists()
+    prev = f'<a href="mahberet-{num - 1:02d}.html" rel="prev">← Maḥberet {num - 1}</a>' if num > 1 and done(num - 1) else ""
+    nxt = f'<a href="mahberet-{num + 1:02d}.html" rel="next">Maḥberet {num + 1} →</a>' if num < 28 and done(num + 1) else ""
+    pn = f'<span class="pn">{prev}{nxt}</span>' if prev or nxt else ""
     page = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -109,14 +113,18 @@ def main() -> None:
 <script src="/assets/os.js" defer></script>
 </head>
 <body>
-<header>
-<p class="crumb"><a href="index.html">Immanuel of Rome, <i>Maḥberot</i></a></p>
+<header class="chapter">
+<nav class="crumb" aria-label="Maḥberot"><span><a href="index.html">All maḥberot</a> · Maḥberet {num}</span>{pn}</nav>
 <h1>{html.escape(title)}</h1>
-<p class="sub">{html.escape(subtitle)} · <span lang="he" dir="rtl">{html.escape(he["title"])}</span></p>
+<p class="sub">{html.escape(subtitle)}</p>
+<p class="sub-he" lang="he" dir="rtl">{html.escape(he["title"])}</p>
+<details class="about"><summary>About this text</summary>
 <p class="meta">{line_no} lines. One row is one rhyme unit of the Hebrew rhymed prose, or one line of verse.
 References in <span class="ref">[gray brackets]</span> are the translator's identifications.
 <a class="warn" href="#notes">⚠</a> marks an uncertain rendering.
+Fixed links: <code>#l12</code> is line 12 (its number).
 Hebrew text: <a href="https://benyehuda.org/read/36886">Project Ben-Yehuda</a>, from the edition of Dov Yarden (1957).</p>
+</details>
 </header>
 <main>
 {chr(10).join(rows)}
@@ -126,7 +134,7 @@ Hebrew text: <a href="https://benyehuda.org/read/36886">Project Ben-Yehuda</a>, 
 <ul class="notes">
 {note_rows}
 </ul>
-<p><a href="index.html">All maḥberot</a></p>
+<nav class="crumb foot" aria-label="Maḥberot"><span><a href="index.html">All maḥberot</a></span>{pn}</nav>
 </footer>
 </body>
 </html>
