@@ -122,7 +122,7 @@ def main() -> None:
 <p class="meta">{line_no} lines. One row is one rhyme unit of the Hebrew rhymed prose, or one line of verse.
 References in <span class="ref">[gray brackets]</span> are the translator's identifications.
 <a class="warn" href="#notes">⚠</a> marks an uncertain rendering.
-Fixed links: <code>#l12</code> is line 12 (its number).
+Each line number is a link to that line.
 Hebrew text: <a href="https://benyehuda.org/read/36886">Project Ben-Yehuda</a>, from the edition of Dov Yarden (1957).</p>
 </details>
 </header>
