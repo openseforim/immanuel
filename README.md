@@ -2,6 +2,8 @@
 
 Site: <https://openseforim.org/immanuel/>
 
+Cite as: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24458133.svg)](https://doi.org/10.5281/zenodo.24458133) (Zenodo; this DOI always points to the newest release)
+
 Immanuel ben Solomon of Rome (about 1261 to about 1335) wrote 28 *maḥberot* in Hebrew rhymed prose with poems set into it. No complete translation exists in any language. This repository holds a line-aligned Hebrew and English text and the scripts that build the side-by-side pages.
 
 ## Status

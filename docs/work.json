@@ -17,6 +17,7 @@
   "cite": "Immanuel of Rome, *Maḥberot*, Hebrew text with English translation, ed. Ezra Brand. Open Seforim",
   "url": "https://openseforim.org/immanuel/",
   "repo": "https://github.com/openseforim/immanuel",
+  "doi": "10.5281/zenodo.24458133",
   "licence": {
     "name": "CC BY-SA 4.0",
     "url": "https://creativecommons.org/licenses/by-sa/4.0/"
